@@ -9,9 +9,9 @@ namespace SimpleWS
 	{
 		private static Book[] _mockData =
 		{
-			new Book() { Name = "Book 1", Year = 2011 },
-			new Book() { Name = "Book 2", Year = 2012 },
-			new Book() { Name = "Book 3", Year = 2013 },
+			new Book() { Name = "test 1", Year = 2011 },
+			new Book() { Name = "test 2", Year = 2012 },
+			new Book() { Name = "test 3", Year = 2013 },
 		};
 
 		public static Book[] MockData 
@@ -21,5 +21,10 @@ namespace SimpleWS
 
 		public string Name { get; set; }
 		public int Year { get; set; }
+
+		public override string ToString()
+		{
+			return Name ?? string.Empty + ", " + Year.ToString();
+		}
 	}
 }

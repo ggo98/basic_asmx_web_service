@@ -5,5 +5,3 @@ Basically there's almost nothing to do:
 - create an empty c# ASP.NET Empty Web Application project.
 - add a Web Service (Web item type).
 => you got a skeleton ready.
-
-

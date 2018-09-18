@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\SimpleWS.pubxml" />
+    <None Include="Properties\PublishProfiles\SimpleWS_Debug.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

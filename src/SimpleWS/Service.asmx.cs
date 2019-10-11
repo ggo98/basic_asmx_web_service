@@ -18,6 +18,7 @@ namespace SimpleWS
 	{
 
 		[WebMethod]
+		// V2
 		public int BookYear(Book book)
 		{
 			if (null != book)

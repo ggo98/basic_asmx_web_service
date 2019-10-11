@@ -18,7 +18,7 @@ namespace SimpleWS
 	{
 
 		[WebMethod]
-		// V3
+		// V3 patched.
 		public int BookYear(Book book)
 		{
 			if (null != book)

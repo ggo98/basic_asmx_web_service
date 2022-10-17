@@ -1,5 +1,0 @@
-D:\test\__GIBHUB\basic_asmx_web_service\src\SimpleWS\bin\SimpleWS.dll
-D:\test\__GIBHUB\basic_asmx_web_service\src\SimpleWS\bin\SimpleWS.pdb
-D:\test\__GIBHUB\basic_asmx_web_service\src\SimpleWS\obj\Debug\SimpleWS.csprojResolveAssemblyReference.cache
-D:\test\__GIBHUB\basic_asmx_web_service\src\SimpleWS\obj\Debug\SimpleWS.dll
-D:\test\__GIBHUB\basic_asmx_web_service\src\SimpleWS\obj\Debug\SimpleWS.pdb

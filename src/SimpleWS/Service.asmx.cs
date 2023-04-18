@@ -16,7 +16,7 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
-//modif in master
+//modif in feature/branch-2
 		[WebMethod]
 		// V5
 		// V4 start

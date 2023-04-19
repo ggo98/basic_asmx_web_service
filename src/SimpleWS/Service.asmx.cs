@@ -16,6 +16,10 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
+		void maMethode()
+		{
+			Console.WriteLine("toto");
+		}
 //modif in feature/branch-2
 		[WebMethod]
 		// V5

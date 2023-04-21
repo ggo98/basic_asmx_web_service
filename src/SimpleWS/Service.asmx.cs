@@ -16,6 +16,12 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
+
+		void MethodAddedInMaster()
+		{
+			Console.WriteLine("MethodAddedInMaster");
+		}
+
 		void maMethode()
 		{
 			Console.WriteLine("toto");

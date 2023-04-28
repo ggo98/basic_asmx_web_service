@@ -17,15 +17,19 @@ namespace SimpleWS
 	public class Service : System.Web.Services.WebService
 	{
 
+		void maMethode()
+		{
+			Console.WriteLine("toto");
+		}
 		void MethodAddedInMaster()
 		{
 			Console.WriteLine("MethodAddedInMaster");
 		}
 
-		void maMethode()
+		void anothermethod()
 		{
-			Console.WriteLine("toto");
 		}
+
 //modif in feature/branch-2
 		[WebMethod]
 		// V5

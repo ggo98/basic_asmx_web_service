@@ -16,7 +16,7 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
-		// VERSION 1.0
+		// VERSION 2.0
 
 		void maMethode()
 		{

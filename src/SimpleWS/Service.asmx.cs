@@ -18,7 +18,7 @@ namespace SimpleWS
 	{
 		// VERSION 2.0
 
-		void maMethode22222222()
+		void maMethode33333()
 		{
 			Console.WriteLine("toto");
 		}

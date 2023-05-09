@@ -18,6 +18,15 @@ namespace SimpleWS
 	{
 		// VERSION 2.0
 
+		void WorkingOnMyGreatNewFeatureInBranch_5()
+		{
+			Console.WriteLine("Feat. 5");
+		}
+
+		void maMethode22222222()
+		{
+			Console.WriteLine("toto");
+		}
 		void maMethode()
 		{
 			Console.WriteLine("toto");

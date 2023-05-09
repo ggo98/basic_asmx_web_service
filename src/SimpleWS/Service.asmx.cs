@@ -19,7 +19,6 @@ namespace SimpleWS
 		// VERSION 2.0
 
 		void maMethode33333()
-		void WorkingOnMyGreatNewFeatureInBranch_5()
 		{
 		}
 

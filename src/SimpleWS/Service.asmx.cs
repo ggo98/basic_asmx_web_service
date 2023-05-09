@@ -17,6 +17,10 @@ namespace SimpleWS
 	public class Service : System.Web.Services.WebService
 	{
 
+		void maMethode22222222()
+		{
+			Console.WriteLine("toto");
+		}
 		void maMethode()
 		{
 			Console.WriteLine("toto");

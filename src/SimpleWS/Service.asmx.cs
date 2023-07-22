@@ -16,6 +16,12 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
+		void FEAT1()
+		{
+            Console.WriteLine("FEAT1");
+        }
+
+
 		[WebMethod]
 		public int BookYear(Book book)
 		{

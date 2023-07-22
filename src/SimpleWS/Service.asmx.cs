@@ -22,6 +22,13 @@ namespace SimpleWS
         }
 
 
+		void BUGFIX1()
+		{
+            Console.WriteLine("BUGFIX1");
+        }
+
+
+
 		[WebMethod]
 		public int BookYear(Book book)
 		{

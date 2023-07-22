@@ -22,7 +22,8 @@ namespace SimpleWS
         }
 
 
-
+        void FEAT1()
+		{
             Console.WriteLine("FEAT1");
         }
 

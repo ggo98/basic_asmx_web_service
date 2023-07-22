@@ -16,29 +16,6 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
-		void BUGFIX1()
-		{
-            Console.WriteLine("BUGFIX1");
-        }
-
-        void FEAT1()
-		{
-            Console.WriteLine("FEAT1");
-        }
-
-        // FEAT2
-        void FEAT2()
-        {
-            int a = 1234;
-            Console.WriteLine("FEAT2");
-        }
-
-        // FEAT3
-        void FEAT3()
-        {
-            Console.WriteLine("FEAT3");
-        }
-
         [WebMethod]
 		public int BookYear(Book book)
 		{

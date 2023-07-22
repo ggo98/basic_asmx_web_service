@@ -26,11 +26,6 @@ namespace SimpleWS
             Console.WriteLine("FEAT1");
         }
 
-        void BUGFIX2()
-        {
-            Console.WriteLine("BUGFIX2");
-        }
-
         [WebMethod]
 		public int BookYear(Book book)
 		{
@@ -44,5 +39,10 @@ namespace SimpleWS
 			}
 			return -1;
 		}
-	}
+
+        void BUGFIX2()
+        {
+            Console.WriteLine("BUGFIX2 4");
+        }
+    }
 }

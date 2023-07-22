@@ -32,6 +32,10 @@ namespace SimpleWS
 			int a = 123;
             Console.WriteLine("FEAT2");
         }
+        void BUGFIX2()
+        {
+            Console.WriteLine("BUGFIX2");
+        }
 
         [WebMethod]
 		public int BookYear(Book book)

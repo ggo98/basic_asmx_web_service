@@ -26,8 +26,10 @@ namespace SimpleWS
             Console.WriteLine("FEAT1");
         }
 
+        // FEAT2
         void FEAT2()
         {
+			int a = 123;
             Console.WriteLine("FEAT2");
         }
 

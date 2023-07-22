@@ -35,9 +35,14 @@ namespace SimpleWS
 			return -1;
 		}
 
-		void BUGFIX1()
-		{
+        void BUGFIX1()
+        {
             Console.WriteLine("BUGFIX1");
+        }
+
+        void BUGFIX2()
+        {
+            Console.WriteLine("BUGFIX2");
         }
     }
 }

@@ -16,9 +16,14 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
-		void FEAT1()
-		{
+        void FEAT1()
+        {
             Console.WriteLine("FEAT1");
+        }
+
+        void FEAT2()
+        {
+            Console.WriteLine("FEAT2");
         }
 
         [WebMethod]

@@ -16,35 +16,7 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
-		// VERSION 2.0
-
-		void maMethode33333()
-		{
-			return;
-			Console.WriteLine("m33333");
-		}
-
-		void maMethode22222222()
-		{
-			Console.WriteLine("toto");
-		}
-		void maMethode()
-		{
-			Console.WriteLine("toto");
-		}
-		void MethodAddedInMaster()
-		{
-			Console.WriteLine("MethodAddedInMaster");
-		}
-
-		void anothermethod()
-		{
-		}
-
-//modif in feature/branch-2
 		[WebMethod]
-		// V5
-		// V4 start
 		public int BookYear(Book book)
 		{
 			if (null != book)

@@ -29,7 +29,7 @@ namespace SimpleWS
         // FEAT2
         void FEAT2()
         {
-			int a = 123;
+			int a = 1234;
             Console.WriteLine("FEAT2");
         }
 

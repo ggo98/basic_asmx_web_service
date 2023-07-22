@@ -21,13 +21,17 @@ namespace SimpleWS
             Console.WriteLine("BUGFIX1");
         }
 
-
         void FEAT1()
 		{
             Console.WriteLine("FEAT1");
         }
 
-		[WebMethod]
+        void FEAT2()
+        {
+            Console.WriteLine("FEAT2");
+        }
+
+        [WebMethod]
 		public int BookYear(Book book)
 		{
 			if (null != book)

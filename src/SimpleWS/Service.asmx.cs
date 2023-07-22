@@ -26,6 +26,11 @@ namespace SimpleWS
             Console.WriteLine("FEAT2");
         }
 
+        void FEAT3()
+        {
+            Console.WriteLine("FEAT3");
+        }
+
         [WebMethod]
 		public int BookYear(Book book)
 		{

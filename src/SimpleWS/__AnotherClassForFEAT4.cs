@@ -7,6 +7,6 @@ namespace SimpleWS
 {
     public class __AnotherClassForFEAT4
     {
-        // Another TODO
+        public string PropIn__AnotherClassForFEAT4 { get; set; }
     }
 }

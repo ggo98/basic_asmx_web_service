@@ -7,6 +7,6 @@ namespace SimpleWS
 {
     public class __SupportClassForFEAT4
     {
-        //TODO
+        public string PropIn__SupportClassForFEAT4 { get; set; }
     }
 }

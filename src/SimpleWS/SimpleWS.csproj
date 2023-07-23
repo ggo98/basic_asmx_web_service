@@ -73,6 +73,7 @@
       <DependentUpon>Service.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="__AnotherClassForFEAT4.cs" />
     <Compile Include="__SupportClassForFEAT4.cs" />
   </ItemGroup>
   <ItemGroup>

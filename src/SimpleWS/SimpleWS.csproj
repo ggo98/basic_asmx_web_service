@@ -20,6 +20,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,7 +66,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-  <!-- -->
+    <!-- -->
     <Compile Include="Book.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.asmx.cs">

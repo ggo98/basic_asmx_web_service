@@ -16,8 +16,16 @@ namespace SimpleWS
 	// [System.Web.Script.Services.ScriptService]
 	public class Service : System.Web.Services.WebService
 	{
+        void testSTASH()
+        {
+            int aaaa = 123;
+            int bb= 123;
+            int c = 23;
+        }
+
         void FEAT1()
         {
+            testSTASH();
             Console.WriteLine("FEAT1");
         }
 

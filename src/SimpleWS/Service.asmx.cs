@@ -23,6 +23,11 @@ namespace SimpleWS
             int c = 23;
         }
 
+        void FEAT5()
+        {
+            Console.WriteLine("FEAT5");
+        }
+
         void FEAT1()
         {
             testSTASH();

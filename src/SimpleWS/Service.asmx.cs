@@ -18,11 +18,13 @@ namespace SimpleWS
 	{
         void testSTASH()
         {
-
+            int aaaa = 123;
+            int bb= 123;
         }
 
         void FEAT1()
         {
+            testSTASH();
             Console.WriteLine("FEAT1");
         }
 

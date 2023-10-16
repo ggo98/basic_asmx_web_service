@@ -72,5 +72,10 @@ namespace SimpleWS
         {
             Console.WriteLine("BUGFIX3");
         }
+
+		void FEAT6()
+		{
+			Console.WriteLine("FEAT6");
+		}
     }
 }

@@ -12,6 +12,7 @@ namespace SimpleWS
 			new Book() { Name = "test 1", Year = 2011 },
 			new Book() { Name = "test 2", Year = 2012 },
 			new Book() { Name = "test 3", Year = 2013 },
+			new Book() { Name = "test 4", Year = 2026 },
 		};
 
 		public static Book[] MockData 
